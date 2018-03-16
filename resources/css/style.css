@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+
+}
+
+body {
+  color: black;
+}
+
+div {
+  border: 1px solid pink;
+}
+
+/* Header */
+
+.main-cotainer {
+  width: 100%;
+}
+
+.header {
+  height: 64px;
+}
+
+.header-navbar {
+
+}
+
+.logo-title {
+  height: 32px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.navigation {
+  height: 32px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.navigation a {
+  padding: 8px;
+}
