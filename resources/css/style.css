@@ -18,7 +18,6 @@ a {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  text-align: center;
 }
 
 .site-container {
@@ -49,10 +48,6 @@ h1 {
   width: 40%;
   margin-left: 1.5rem;
   margin-top: 2rem;
-}
-
-.medium-column p {
-  padding:
 }
 
 /* Header */
@@ -123,7 +118,6 @@ nav a {
 }
 
 .banner p {
-  text-align: center;
   font-size: 1.4rem;
   font-weight: 600;
   margin: 1.5rem 0;
@@ -134,7 +128,7 @@ nav a {
 }
 
 .button {
-  width: 75%;
+  width: 100%;
   text-align: center;
   font-size: 1.5rem;
   color: white;
