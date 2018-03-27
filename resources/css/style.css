@@ -6,14 +6,53 @@ html {
   color: hsl(0, 0%, 29%);
 }
 
-.site-container {
-  display: flex;
-  justify-content: space-between;
-  width: 960px;
+/*div, nav {
+  border: 1px solid pink;
+}*/
+
+a {
+  text-decoration: none;
+  font-weight: 600;
 }
 
-div, nav {
-  border: 1px solid pink;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.site-container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.main {
+  position: relative;
+  top: 4rem;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-column {
+  width: 60%;
+  padding: 2rem 0rem 2rem 1.5rem;
+}
+
+.medium-column {
+  width: 40%;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.medium-column p {
+  padding:
 }
 
 /* Header */
@@ -72,4 +111,42 @@ nav a {
 .desktop a:hover {
   background-color: hsl(0, 0%, 29%);
   color: white;
+}
+
+/* "Learn Something Section" */
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: hsl(9, 0%, 85%);
+}
+
+.banner p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.big-img {
+  max-width: 100%;
+}
+
+.button {
+  width: 75%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  background-color: hsl(0, 0%, 29%);
+  border-radius: 0.5rem;
+  padding: 1.5rem 0;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: hsl(0, 0%, 29%);
 }
